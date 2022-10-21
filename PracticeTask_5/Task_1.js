@@ -30,7 +30,6 @@ const AdvancedCalculator = (a, b) => {
     }
 }
 
-
 const multiply = ({a, b}) => {
     return{
         multiply: () => a * b,

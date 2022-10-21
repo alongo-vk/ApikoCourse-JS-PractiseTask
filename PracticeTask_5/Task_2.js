@@ -58,7 +58,6 @@
 
     todolist.addItem(fakeObject); //Провірка addItem чи працює валідація на тип TodoItem
 
-
     console.log('\n----------Початковий масив items----------');
     console.log(todolist.items);
 
