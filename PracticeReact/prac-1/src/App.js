@@ -1,17 +1,25 @@
 import './App.css';
 
-import image from './images/logo.png';
-
 import AppItem from './components/AppItem';
 import AppWrapper from './components/AppWrapper';
 import Image from './components/Image';
+
+import turtles from './constants';
+import getItemDescription from './utils';
 
 function App() {
   return (
     <div className="App">
       <div className="nothing">Nothing</div>
-      <AppWrapper title="Кобилан Вадим" />
-      <AppItem name="Club" description="This is our club" Image={<Image imgUrl={image} />} />
+      <AppWrapper title="React Turtles">
+        {turtles.map((turtle, index) => (
+          <AppItem
+            key={index}
+            name={turtle.name}
+            description={getItemDescription(turtle.nickName, turtle.weapon)}
+            Image={<Image imgUrl={turtle.imgUrl} />}></AppItem>
+        ))}
+      </AppWrapper>
     </div>
   );
 }

@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-const AppWrapper = ({title, children}) => {
+const AppWrapper = ({ title, children }) => {
   return (
-    <div className="appWrapper" >
-    <h1>{title}</h1>
-     {children}
+    <div className="appWrapper">
+      <h1>{title}</h1>
+      {children}
     </div>
-  )
-}
+  );
+};
 
-export default AppWrapper
+export default AppWrapper;

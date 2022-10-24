@@ -69,8 +69,11 @@ img {
   vertical-align: top;
 }
 
-.App {
+html {
   background-color: rgb(255, 241, 120);
+}
+
+.App {
   height: 100vh;
   color: rgb(22, 22, 22);
 }

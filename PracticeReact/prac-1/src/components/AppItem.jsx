@@ -5,7 +5,6 @@ const AppItem = ({ name, description, Image }) => {
     <div className='AppItem'>
       <h2 className='name'>{name}</h2>
       {Image}
-      {console.log(Image)}
       <div className='descriprion'>{description}</div>
     </div>
   );
