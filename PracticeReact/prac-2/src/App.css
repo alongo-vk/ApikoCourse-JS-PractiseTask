@@ -1,0 +1,25 @@
+html {
+  background-color: rgb(250, 255, 221);
+}
+
+body {
+  margin: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 70px;
+}
+
+.navItems {
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.no-link {
+  cursor: pointer;
+}
